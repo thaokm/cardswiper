@@ -1,0 +1,33 @@
+.profilePictureBig {
+	border-radius: 100%;
+	overflow: hidden;
+	-webkit-box-sizing: content-box;
+  	-moz-box-sizing: content-box;
+  	box-sizing: content-box;	
+    margin: 0 auto;		
+    border: 5px solid #50597b;
+    width: 150px;
+    height: 150px;
+}
+.profileBlock {
+    /* height: 410px; */
+    margin-bottom: 25px;
+    background: #394264;
+    border-radius: 5px;
+    padding: 20px;
+    width: 250px;
+}
+
+.userName {
+    margin: 25px 0 16px;
+    text-align: center;
+    color: aliceblue;
+}
+.profileDescription {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #9099b7;
+    font-size: 15px;
+    line-height: normal;
+}
