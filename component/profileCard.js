@@ -6,7 +6,7 @@ export default function Profile({name='Đinh Tiến Sở', quote=defaultQuote, u
     return(
         <div className={style.profileBlock}>
             <div className={style.profilePictureBig}>
-                <img width="150px" alt="Anne Hathaway picture" src={url} />
+                <img width="100%" alt="Anne Hathaway picture" src={url} />
             </div>
             <h2 className={style.userName}>{name}</h2>
             <div className={style.profileDescription}>

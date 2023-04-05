@@ -6,16 +6,23 @@
   	box-sizing: content-box;	
     margin: 0 auto;		
     border: 5px solid #50597b;
-    width: 150px;
-    height: 150px;
+    width: 50%;
+    aspect-ratio: 1/1;
 }
 .profileBlock {
-    /* height: 410px; */
     margin-bottom: 25px;
     background: #394264;
     border-radius: 5px;
     padding: 20px;
-    width: 250px;
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+    transition: .3s;
+}
+.profileBlock:hover{
+    box-shadow: #686868 3px 3px 10px;
+    background: #576597;
+    cursor: pointer;
 }
 
 .userName {
